@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html class="html" lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/PNG/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/img/PNG/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/css/justValidateTooltip.min.css">
+    <link rel="stylesheet" href="/css/swiper.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Blanchard</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <div class="menu">
+                <a tabindex="0" aria-label="Логотип Blanchard художественная галерея" href="" class="header__logo logo"><img src="/img/PNG/Logo.png" alt=""></a>
+                <a tabindex="0" aria-label="Логотип Blanchard художественная галерея" href="" class="header__logo--min logo"><img src="/img/PNG/Logo--min.png" alt=""></a>
+                <button class="search__btn search__btn--tablet" ></button>
+                <form action="URL" class="search--mini">
+                    <span tabindex="0" class="search--focus">
+                        <input aria-label="кнопка Найти" type="submit" value="" class="search__btn">
+                    </span>
+                    <input tabindex="0" aria-label="Поиск по сайту" type="search" name="text" placeholder="Поиск по сайту" class="search__text">
+                </form>
+                <button class="search__close" aria-label="Закрыть меню">
+                    <span class="close__line" aria-hidden="true"></span>
+                    <span class="close__line" aria-hidden="true"></span>
+                </button>
+                <button class="header__burger" aria-label="Открыить меню">
+                    <span class="burger__line" aria-hidden="true"></span>
+                    <span class="burger__line" aria-hidden="true"></span>
+                    <span class="burger__line" aria-hidden="true"></span>
+                </button>
+                <button class="header__close" aria-label="Закрыть меню">
+                    <span class="close__line" aria-hidden="true"></span>
+                    <span class="close__line" aria-hidden="true"></span>
+                </button>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a tabindex="0" aria-label="О нас" href="#about" class="nav__link">О&nbsp;нас</a></li>
+                        <li class="nav__item"><a tabindex="0" aria-label="Галерея" href="#gallery" class="nav__link">Галерея</a></li>
+                        <li class="nav__item"><a tabindex="0" aria-label="Каталог" href="#catalog" class="nav__link">Каталог</a></li>
+                        <li class="nav__item"><a tabindex="0" aria-label="События" href="#events" class="nav__link">События</a></li>
+                        <li class="nav__item"><a tabindex="0" aria-label="Издания" href="#editions" class="nav__link">Издания</a></li>
+                        <li class="nav__item"><a tabindex="0" aria-label="Проекты" href="#projects" class="nav__link">Проекты</a></li>
+                        <li class="nav__item"><a tabindex="0" aria-label="Контакты" href="#contacts" class="nav__link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <a tabindex="0" aria-label="Войти" href="" class="login">Войти</a>
+            </div>
+        </div>
+        <div class="hero__header">
+            <div class="container hero__container">
+                <div class="header__selects">
+                    <div class="header__select">
+                        <div tabindex="0" class="header__select__header">
+                            <span class="header__select__current">Реализм</span>
+                            <div class="header__select__icon"></div>
+                        </div>
+                        <div class="header__select__body" data-simplebar>
+                            <div class="header__select__body__content">
+                                <a href="" class="header__select__body__content__link" style="background-image: url(/img/IMG/hero-bg2.jpg);"> <span class="header__select__body__content__link__mask"></span>  Тинторетто</a>
+                                <a href="" class="header__select__body__content__link" style="background-image: url(/img/IMG/hero-bg3.jpg);"> <span class="header__select__body__content__link__mask"></span>  Фридрих</a>
+                                <a href="" class="header__select__body__content__link" style="background-image: url(/img/IMG/hero-bg1.jpg);"> <span class="header__select__body__content__link__mask"></span>  Леонардо</a>
+                                <a href="" class="header__select__body__content__link" style="background-image: url(/img/IMG/hero-bg3.jpg);"> <span class="header__select__body__content__link__mask"></span>  Веррокьо</a>
+                                <a href="" class="header__select__body__content__link" style="background-image: url(/img/IMG/hero-bg2.jpg);"> <span class="header__select__body__content__link__mask"></span>  Тинторетто</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__select">
+                        <div tabindex="0" class="header__select__header">
+                            <span class="header__select__current">Импрессионизм</span>
+                            <div class="header__select__icon"></div>
+                        </div>
+                        <div class="header__select__body" data-simplebar>
+                            <div class="header__select__body__content">
+                                <a href="" class="header__select__body__content__link" style="background-image: url(/img/IMG/hero-bg2.jpg);"> <span class="header__select__body__content__link__mask"></span>  Тинторетто</a>
+                                <a href="" class="header__select__body__content__link" style="background-image: url(/img/IMG/hero-bg3.jpg);"> <span class="header__select__body__content__link__mask"></span>  Фридрих</a>
+                                <a href="" class="header__select__body__content__link" style="background-image: url(/img/IMG/hero-bg1.jpg);"> <span class="header__select__body__content__link__mask"></span>  Леонардо</a>
+                                <a href="" class="header__select__body__content__link" style="background-image: url(/img/IMG/hero-bg3.jpg);"> <span class="header__select__body__content__link__mask"></span>  Веррокьо</a>
+                                <a href="" class="header__select__body__content__link" style="background-image: url(/img/IMG/hero-bg2.jpg);"> <span class="header__select__body__content__link__mask"></span>  Тинторетто</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__select">
+                        <div tabindex="0" class="header__select__header">
+                            <span class="header__select__current">Постмпрессионизм</span>
+                            <div class="header__select__icon"></div>
+                        </div>
+                        <div class="header__select__body" data-simplebar>
+                            <div class="header__select__body__content">
+                                <a href="" class="header__select__body__content__link" style="background-image: url(/img/IMG/hero-bg2.jpg);"> <span class="header__select__body__content__link__mask"></span>  Тинторетто</a>
+                                <a href="" class="header__select__body__content__link" style="background-image: url(/img/IMG/hero-bg3.jpg);"> <span class="header__select__body__content__link__mask"></span>  Фридрих</a>
+                                <a href="" class="header__select__body__content__link" style="background-image: url(/img/IMG/hero-bg1.jpg);"> <span class="header__select__body__content__link__mask"></span>  Леонардо</a>
+                                <a href="" class="header__select__body__content__link" style="background-image: url(/img/IMG/hero-bg3.jpg);"> <span class="header__select__body__content__link__mask"></span>  Веррокьо</a>
+                                <a href="" class="header__select__body__content__link" style="background-image: url(/img/IMG/hero-bg2.jpg);"> <span class="header__select__body__content__link__mask"></span>  Тинторетто</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__select">
+                        <div tabindex="0" class="header__select__header">
+                            <span class="header__select__current">Авангард</span>
+                            <div class="header__select__icon"></div>
+                        </div>
+                        <div class="header__select__body" data-simplebar>
+                            <div class="header__select__body__content">
+                                <a href="" class="header__select__body__content__link" style="background-image: url(/img/IMG/hero-bg2.jpg);"> <span class="header__select__body__content__link__mask"></span>  Тинторетто</a>
+                                <a href="" class="header__select__body__content__link" style="background-image: url(/img/IMG/hero-bg3.jpg);"> <span class="header__select__body__content__link__mask"></span>  Фридрих</a>
+                                <a href="" class="header__select__body__content__link" style="background-image: url(/img/IMG/hero-bg1.jpg);"> <span class="header__select__body__content__link__mask"></span>  Леонардо</a>
+                                <a href="" class="header__select__body__content__link" style="background-image: url(/img/IMG/hero-bg3.jpg);"> <span class="header__select__body__content__link__mask"></span>  Веррокьо</a>
+                                <a href="" class="header__select__body__content__link" style="background-image: url(/img/IMG/hero-bg2.jpg);"> <span class="header__select__body__content__link__mask"></span>  Тинторетто</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__select">
+                        <div tabindex="0" class="header__select__header">
+                            <span class="header__select__current">Футуризм</span>
+                            <div class="header__select__icon"></div>
+                        </div>
+                        <div class="header__select__body" data-simplebar>
+                            <div class="header__select__body__content">
+                                <a href="" class="header__select__body__content__link" style="background-image: url(/img/IMG/hero-bg2.jpg);"> <span class="header__select__body__content__link__mask"></span>  Тинторетто</a>
+                                <a href="" class="header__select__body__content__link" style="background-image: url(/img/IMG/hero-bg3.jpg);"> <span class="header__select__body__content__link__mask"></span>  Фридрих</a>
+                                <a href="" class="header__select__body__content__link" style="background-image: url(/img/IMG/hero-bg1.jpg);"> <span class="header__select__body__content__link__mask"></span>  Леонардо</a>
+                                <a href="" class="header__select__body__content__link" style="background-image: url(/img/IMG/hero-bg3.jpg);"> <span class="header__select__body__content__link__mask"></span>  Веррокьо</a>
+                                <a href="" class="header__select__body__content__link" style="background-image: url(/img/IMG/hero-bg2.jpg);"> <span class="header__select__body__content__link__mask"></span>  Тинторетто</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form action="URL" class="search">
+                    <span tabindex="0" class="search--focus">
+                        <input aria-label="кнопка Найти" type="submit" value="" class="search__btn">
+                    </span>
+                    <input tabindex="0" aria-label="Поиск по сайту" type="search" name="text" placeholder="Поиск по сайту" class="search__text">
+                </form>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <div class="swiper-container hero__slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image: url(/img/IMG/hero-bg1.jpg); background-size: cover;"></div>
+                    <div class="swiper-slide" style="background-image: url(/img/IMG/hero-bg2.jpg); background-size: cover;"></div>
+                    <div class="swiper-slide" style="background-image: url(/img/IMG/hero-bg3.jpg); background-size: cover;"></div>
+                </div>
+            </div>
+            <div class="container hero__main__container">
+                <div class="hero__content">
+                    <h1 class="hero__content__header">Прикоснитесь<br> к прекрасному</h1>
+                    <p class="hero__descr">Мы вынуждены отталкиваться от того, что реализация намеченных плановых
+                        заданий создаёт предпосылки для новых предложений.</p>
+                    <a tabindex="0" aria-label="кнопка Подписаться на рассылку" href="#contacts" class="hero__btn">Подписаться на рассылку</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container about__container">
+                <h2 class="about__header section__header">О нас</h2>
+                <p class="about__descr">Ясность нашей позиции очевидна: семантический разбор внешних противодействий
+                    однозначно определяет каждого участника как способного принимать собственные решения касаемо
+                    распределения внутренних резервов и ресурсов. Не следует, однако, забывать, что высококачественный
+                    прототип будущего проекта влечет за собой процесс внедрения и модернизации модели развития.
+                    Повседневная практика показывает, что высокое качество позиционных исследований создаёт
+                    необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом
+                    комплекса распределения внутренних резервов и ресурсов. В рамках спецификации современных
+                    стандартов, действия представителей оппозиции набирают популярность среди определенных слоев
+                    населения, а значит, должны быть разоблачены.</p>
+            </div>
+        </section>
+
+        <section id="catalog" class="catalog">
+            <div class="container catalog__container">
+                <div class="catalog__header">
+                    <h2 class="catalog__header__text section__header">Каталог</h2>
+                    <ul class="tabs">
+                        <li><a tabindex="0" href="#France" aria-label="Франция" class="catalog__tabs__link" style="background-image: url(/img/PNG/France.png);"></a></li>
+                        <li><a tabindex="0" href="#Germany" aria-label="Германия" class="catalog__tabs__link" style="background-image: url(/img/PNG/germany.png);"></a></li>
+                        <li><a tabindex="0" href="#Italy" aria-label="Италия" class="catalog__tabs__link" style="background-image: url(/img/PNG/Italy.png);"></a></li>
+                        <li><a tabindex="0" href="#Russia" aria-label="Россия" class="catalog__tabs__link catalog__tabs__link--active" style="background-image: url(/img/PNG/russia.png);"></a></li>
+                        <li><a tabindex="0" href="#Belgium" aria-label="Бельгия" class="catalog__tabs__link" style="background-image: url(/img/PNG/Belgium.png);"></a></li>
+                    </ul>
+                </div>
+                <div id="Russia" class="tabs__panel tabs__panel--active">
+                    <p class="catalog__descr">Акционеры крупнейших компаний, которые представляют собой яркий пример
+                        континентально-европейского типа политической культуры, будут объявлены нарушающими общечеловеческие
+                        нормы этики и морали. Являясь всего лишь частью общей картины, стремящиеся вытеснить традиционное
+                        производство, нанотехнологии и по сей день остаются уделом либералов, которые жаждут быть
+                        функционально разнесены на независимые элементы. </p>
+                    <div class="catalog__content">
+                        <div id="autor" class="autor tabs__pane tabs__pane_show">
+                            <img src="/img/IMG/Picture.jpg" alt="" class="picture">
+                            <h3 class="autor__name">Доменико Гирландайо</h3>
+                            <span class="autor__years">2 июня 1448 — 11 января 1494.</span>
+                            <p class="autor__descr">
+                                Один из ведущих флорентийских художников Кватроченто, основатель художественной династии,
+                                которую продолжили его брат Давид и сын Ридольфо. Глава художественной мастерской, где юный
+                                Микеланджело в течение года овладевал профессиональными навыками. Автор фресковых циклов, в
+                                которых выпукло, со всевозможными подробностями показана домашняя жизнь библейских
+                                персонажей (в их роли выступают знатные граждане Флоренции в костюмах того времени).</p>
+                        </div>
+                        <div id="autor-none" class="autor tabs__pane">
+                            <img src="/img/IMG/autor-none.jpg" alt="" class="picture">
+                            <h3 class="autor__name">Что мы о нём знаем?</h3>
+                            <p class="autor__descr">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                            <a href="#gallery" class="autor__link">В галерею</a>
+                        </div>
+                        <div id="accordion" class="accordion">
+                            <h3 tabindex="0" class="accordion__header"><span class="accordion__header__text">C 1400 по 1499гг.</span>
+                                <span class="accordion__arrow">
+                                    <span class="accordion__arrow__arrow"></span>
+                                </span>
+                            </h3>
+                            <div class="accordion__content">
+                                <ul class="accordion__list">
+                                    <li class="accordion__item"><a href="#autor-none" tabindex="0" class="accordion__autor tabs__link">Бенедетто ди Биндо</a></li>
+                                    <li class="accordion__item"><a href="#autor-none" tabindex="0" class="accordion__autor tabs__link">Бергоньоне, Амброджо</a></li>
+                                    <li class="accordion__item"><a href="#autor-none" tabindex="0" class="accordion__autor tabs__link">Биссоло, Франческо</a></li>
+                                    <li class="accordion__item"><a href="#autor-none" tabindex="0" class="accordion__autor tabs__link">Больтраффио, Джованни</a></li>
+                                    <li class="accordion__item"><a href="#autor-none" tabindex="0" class="accordion__autor tabs__link">Бонсиньори, Франческо</a></li>
+                                    <li class="accordion__item"><a href="#autor-none" tabindex="0" class="accordion__autor tabs__link">Боттичини, Рафаэлло</a></li>
+                                    <li class="accordion__item"><a href="#autor-none" tabindex="0" class="accordion__autor tabs__link">Брамантино</a></li>
+                                    <li class="accordion__item"><a href="#autor-none" tabindex="0" class="accordion__autor tabs__link">Бреа, Людовико</a></li>
+                                    <li class="accordion__item"><a href="#autor-none" tabindex="0" class="accordion__autor tabs__link">Бьяджо д’Антонио Туччи</a></li>
+                                    <li class="accordion__item"><a href="#autor-none" tabindex="0" class="accordion__autor tabs__link">Веккьетта</a></li>
+                                    <li class="accordion__item"><a href="#autor-none" tabindex="0" class="accordion__autor tabs__link">Андреа Верроккьо</a></li>
+                                    <li class="accordion__item"><a href="#autor" tabindex="0" class="accordion__autor tabs__link">Доменико Гирландайо</a></li>
+                                    <li class="accordion__item"><a href="#autor-none" tabindex="0" class="accordion__autor tabs__link">Беноццо Гоццоли</a></li>
+                                    <li class="accordion__item"><a href="#autor-none" tabindex="0" class="accordion__autor tabs__link">Граначчи, Франческо</a></li>
+                                    <li class="accordion__item"><a href="#autor-none" tabindex="0" class="accordion__autor tabs__link">Грегорио ди Чекко</a></li>
+                                    <li class="accordion__item"><a href="#autor-none" tabindex="0" class="accordion__autor tabs__link">Джованни да Удине</a></li>
+                                    <li class="accordion__item"><a href="#autor-none" tabindex="0" class="accordion__autor tabs__link">Джованни ди Паоло</a></li>
+                                    <li class="accordion__item"><a href="#autor-none" tabindex="0" class="accordion__autor tabs__link">Джорджоне</a></li>
+                                    <li class="accordion__item"><a href="#autor-none" tabindex="0" class="accordion__autor tabs__link">Парентино, Бернардо</a></li>
+                                    <li class="accordion__item"><a href="#autor-none" tabindex="0" class="accordion__autor tabs__link">Пезеллино</a></li>
+                                    <li class="accordion__item"><a href="#autor-none" tabindex="0" class="accordion__autor tabs__link">Пьетро Перуджино</a></li>
+                                    <li class="accordion__item"><a href="#autor-none" tabindex="0" class="accordion__autor tabs__link">Перуцци, Бальдассаре</a></li>
+                                    <li class="accordion__item"><a href="#autor-none" tabindex="0" class="accordion__autor tabs__link">Пизанелло</a></li>
+                                    <li class="accordion__item"><a href="#autor-none" tabindex="0" class="accordion__autor tabs__link">Пинтуриккьо</a></li>
+                                </ul>
+                            </div>
+                            <h3 tabindex="0" class="accordion__header"><span class="accordion__header__text">C 1500 по 1599гг.</span>
+                                <span class="accordion__arrow">
+                                    <span class="accordion__arrow__arrow"></span>
+                                </span>
+                            </h3>
+                            <div class="accordion__content">
+                                <div class="accordion__none">
+                                    <div class="accordion__img"></div>
+                                    <div class="accordion__descr">
+                                        <h3 class="accordion__item__header">Здесь пока пусто</h3>
+                                        <p class="accordion__text">А в галерее вы всегда можете найти что-то интересное для себя</p>
+                                        <a tabindex="0" aria-label="В галерею" href="#gallery" class="accordion__link">В галерею</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3 tabindex="0" class="accordion__header"><span class="accordion__header__text">C 1600 по 1699гг.</span>
+                                <span class="accordion__arrow">
+                                    <span class="accordion__arrow__arrow"></span>
+                                </span>
+                            </h3>
+                            <div class="accordion__content">
+                                <div class="accordion__none">
+                                    <div class="accordion__img"></div>
+                                    <div class="accordion__descr">
+                                        <h3 class="accordion__item__header">Здесь пока пусто</h3>
+                                        <p class="accordion__text">А в галерее вы всегда можете найти что-то интересное для себя</p>
+                                        <a tabindex="0" aria-label="В галерею" href="#gallery" class="accordion__link">В галерею</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3 tabindex="0" class="accordion__header"><span class="accordion__header__text">C 1700 по 1799гг.</span>
+                                <span class="accordion__arrow">
+                                    <span class="accordion__arrow__arrow"></span>
+                                </span>
+                            </h3>
+                            <div class="accordion__content">
+                                <div class="accordion__none">
+                                    <div class="accordion__img"></div>
+                                    <div class="accordion__descr">
+                                        <h3 class="accordion__item__header">Здесь пока пусто</h3>
+                                        <p class="accordion__text">А в галерее вы всегда можете найти что-то интересное для себя</p>
+                                        <a tabindex="0" aria-label="В галерею" href="#gallery" class="accordion__link">В галерею</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3 tabindex="0" class="accordion__header"><span class="accordion__header__text">C 1800 по 1899гг.</span>
+                                <span class="accordion__arrow">
+                                    <span class="accordion__arrow__arrow"></span>
+                                </span>
+                            </h3>
+                            <div class="accordion__content">
+                                <div class="accordion__none">
+                                    <div class="accordion__img"></div>
+                                    <div class="accordion__descr">
+                                        <h3 class="accordion__item__header">Здесь пока пусто</h3>
+                                        <p class="accordion__text">А в галерее вы всегда можете найти что-то интересное для себя</p>
+                                        <a tabindex="0" aria-label="В галерею" href="#gallery" class="accordion__link">В галерею</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3 tabindex="0" class="accordion__header"><span class="accordion__header__text">C 1900 по 1999гг.</span>
+                                <span class="accordion__arrow">
+                                    <span class="accordion__arrow__arrow"></span>
+                                </span>
+                            </h3>
+                            <div class="accordion__content">
+                                <div class="accordion__none">
+                                    <div class="accordion__img"></div>
+                                    <div class="accordion__descr">
+                                        <h3 class="accordion__item__header">Здесь пока пусто</h3>
+                                        <p class="accordion__text">А в галерее вы всегда можете найти что-то интересное для себя</p>
+                                        <a tabindex="0" aria-label="В галерею" href="#gallery" class="accordion__link">В галерею</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3 tabindex="0" class="accordion__header"><span class="accordion__header__text">C 2000г.</span>
+                                <span class="accordion__arrow">
+                                    <span class="accordion__arrow__arrow"></span>
+                                </span>
+                            </h3>
+                            <div class="accordion__content">
+                                <div class="accordion__none">
+                                    <div class="accordion__img"></div>
+                                    <div class="accordion__descr">
+                                        <h3 class="accordion__item__header">Здесь пока пусто</h3>
+                                        <p class="accordion__text">А в галерее вы всегда можете найти что-то интересное для себя</p>
+                                        <a tabindex="0" aria-label="В галерею" href="#gallery" class="accordion__link">В галерею</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="France" class="tabs__panel">
+                    <h2>Тут пока пусто :(</h2>
+                </div>
+                <div id="Germany" class="tabs__panel">
+                    <h2>Тут пока пусто :(</h2>
+                </div>
+                <div id="Italy" class="tabs__panel">
+                    <h2>Тут пока пусто :(</h2>
+                </div>
+                <div id="Belgium" class="tabs__panel">
+                    <h2>Тут пока пусто :(</h2>
+                </div>
+            </div>
+        </section>
+
+        <section id="events" class="events">
+            <div class="container events__container">
+                <h2 class="events__header section__header">События</h2>
+                    <div class="swiper-container events__slider">
+                        <div class="events__blocks swiper-wrapper">
+                            <div class="events__block swiper-slide">
+                                <img src="/img/IMG/event3.jpg" alt="" class="events__img">
+                                <div class="events__block__text">
+                                    <p class="events__adress">Музей им. Щусева<br>
+                                        с 20 марта по 30 апреля</p>
+                                    <h3 class="events__block__header">Книжная гравюра в живом восприятии</h3>
+                                    <p class="events__descr">Один из ведущих флорентийских художников Кватроченто, основатель
+                                        художественной династии, которую продолжили его брат Давид и сын Ридольфо.</p>
+                                    <a tabindex="0" aria-label="Подробнее" href="" class="events__more">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="events__block swiper-slide">
+                                <img src="/img/IMG/event1.jpg" alt="" class="events__img">
+                                <div class="events__block__text">
+                                    <p class="events__adress">ММОМА<br>
+                                        24 марта 19:00</p>
+                                    <h3 class="events__block__header">«Открытая дискуссия». Дмитрий Петров и Сергей Ильин.</h3>
+                                    <p class="events__descr">Высокий уровень вовлечения представителей целевой аудитории
+                                        является четким доказательством простого факта.</p>
+                                    <a tabindex="0" aria-label="Подробнее" href="" class="events__more">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="events__block swiper-slide">
+                                <img src="/img/IMG/event2.jpg" alt="" class="events__img">
+                                <div class="events__block__text">
+                                    <p class="events__adress">Еврейский музей<br>
+                                        с 31 марта по 21 апреля</p>
+                                    <h3 class="events__block__header">Выставка «Формация 2020»</h3>
+                                    <p class="events__descr">Идейные соображения высшего порядка, а также современная
+                                        методология разработки играет важную роль в формировании глубокомысленных рассуждений.
+                                    </p>
+                                    <a tabindex="0" aria-label="Подробнее" href="" class="events__more">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="events__block swiper-slide">
+                                <img src="/img/IMG/event4.jpg" alt="" class="events__img">
+                                <div class="events__block__text">
+                                    <p class="events__adress">Третьяковка на Крымском валу<br>
+                                        с 30 марта по 30 апреля</p>
+                                    <h3 class="events__block__header">XXIV Международная биеннале молодого искусства</h3>
+                                    <p class="events__descr">Внезапно, реплицированные с зарубежных источников, современные исследования.
+                                    </p>
+                                    <a tabindex="0" aria-label="Подробнее" href="" class="events__more">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="events__block swiper-slide">
+                                <img src="/img/IMG/event5.jpg" alt="" class="events__img">
+                                <div class="events__block__text">
+                                    <p class="events__adress">ММАМ<br>
+                                        с 8 апреля по 20 мая</p>
+                                    <h3 class="events__block__header">Джон Винзор. Фотографии из серии «Метафора серебра»</h3>
+                                    <p class="events__descr">Один из ведущих флорентийских художников Кватроченто, основатель художественной
+                                        династии, которую продолжили его брат Давид и сын Ридольфо.</p>
+                                    <a tabindex="0" aria-label="Подробнее" href="" class="events__more">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="events-swiper-pagination"></div>
+                <div class="events__all--block">
+                    <a tabindex="0" aria-label="Все события" href="" class="events__all">Все события</a>
+                </div>
+
+                
+            </div>
+        </section>
+
+        <section id="editions" class="editions">
+            <div class="container editions__container">
+                <div class="editions__content">
+                    <h2 class="editions__header section__header">Издания</h2>
+                    <h3 class="checkboxes__header">Категории</h3>
+                    <div class="editions__checkboxes">
+                        <input id="Bestsellers" tabindex="0" type="checkbox" name="check" class="check__input">
+                        <label for="Bestsellers" aria-label="Выбрать категорию Бестселеры" class="check option">
+                            Бестселеры
+                        </label>
+                        <input id="Art" tabindex="0" type="checkbox" name="check" class="check__input">
+                        <label for="Art" aria-label="Выбрать категорию Искусство" class="check option">
+                            Искусство
+                        </label>
+                        <input id="Architecture" tabindex="0" type="checkbox" name="check" class="check__input">
+                        <label for="Architecture" aria-label="Выбрать категорию Архитектура" class="check option">
+                            Архитектура
+                        </label>
+                        <input id="Design" tabindex="0" type="checkbox" name="check" class="check__input">
+                        <label for="Design" aria-label="Выбрать категорию Дизайн" class="check option">
+                            Дизайн
+                        </label>
+                        <input id="Fashion" tabindex="0" type="checkbox" name="check" class="check__input">
+                        <label for="Fashion" aria-label="Выбрать категорию Мода" class="check option">
+                            Мода
+                        </label>
+                        <input id="Kids" tabindex="0" type="checkbox" name="check" class="check__input">
+                        <label for="Kids" aria-label="Выбрать категорию Детям" class="check option">
+                            Детям
+                        </label>
+                        <input id="Fiction" tabindex="0" type="checkbox" name="check" class="check__input">
+                        <label for="Fiction" aria-label="Выбрать категорию Художественная литература" class="check option">
+                            Художественная литература
+                        </label>
+                        <input id="Publicity" tabindex="0" type="checkbox" name="check" class="check__input">
+                        <label for="Publicity" aria-label="Выбрать категорию Публицистика" class="check option">
+                            Публицистика
+                        </label>
+                        <input id="Guides" tabindex="0" type="checkbox" name="check" class="check__input">
+                        <label for="Guides" aria-label="Выбрать категорию Путеводители" class="check option">
+                            Путеводители
+                        </label>
+                        <input id="Philosophy" tabindex="0" type="checkbox" name="check" class="check__input">
+                        <label for="Philosophy" aria-label="Выбрать категорию Философия" class="check option">
+                            Философия
+                        </label>
+                        <input id="AcademicBooks" tabindex="0" type="checkbox" name="check" class="check__input">
+                        <label for="AcademicBooks" aria-label="Выбрать категорию Учебная литература" class="check option">
+                            Учебная литература
+                        </label>
+                        <input id="MagazinesAndNewspapers" tabindex="0" type="checkbox" name="check" class="check__input">
+                        <label for="MagazinesAndNewspapers" aria-label="Выбрать категорию Журналы и газеты" class="check option">
+                            Журналы и газеты
+                        </label>
+                    </div>
+                    <div tabindex="0" class="editions__select">
+                        <div class="editions__select__header">
+                            <span class="editions__select__current">Категории</span>
+                            <div class="editions__select__icon"></div>
+                        </div>
+                        <div class="editions__select__body">
+                            <div class="editions__select__item">
+                                <input id="editions__select--1" tabindex="0" type="checkbox" name="check" class="check__input">
+                                <label for="editions__select--1" aria-label="Выбрать категорию Бестселеры" class="check option editions__select__check">
+                                    <span class="check__box"></span>
+                                    Бестселеры
+                                </label>
+                            </div>
+                            <div class="editions__select__item">
+                                <input id="editions__select--2" tabindex="0" type="checkbox" name="check" class="check__input">
+                                <label for="editions__select--2" aria-label="Выбрать категорию Искусство" class="check option editions__select__check">
+                                    <span class="check__box"></span>
+                                    Искусство
+                                </label>
+                            </div>
+                            <div class="editions__select__item">
+                                <input id="editions__select--3" tabindex="0" type="checkbox" name="check" class="check__input">
+                                <label for="editions__select--3" aria-label="Выбрать категорию Архитектура" class="check option editions__select__check">
+                                    <span class="check__box"></span>
+                                    Архитектура
+                                </label>
+                            </div>
+                            <div class="editions__select__item">
+                                <input id="editions__select--4" tabindex="0" type="checkbox" name="check" class="check__input">
+                                <label for="editions__select--4" aria-label="Выбрать категорию Дизайн" class="check option editions__select__check">
+                                    <span class="check__box"></span>
+                                    Дизайн
+                                </label>
+                            </div>
+                            <div class="editions__select__item">
+                                <input id="editions__select--5" tabindex="0" type="checkbox" name="check" class="check__input">
+                                <label for="editions__select--5" aria-label="Выбрать категорию Мода" class="check option editions__select__check">
+                                    <span class="check__box"></span>
+                                    Мода
+                                </label>
+                            </div>
+                            <div class="editions__select__item">
+                                <input id="editions__select--6" tabindex="0" type="checkbox" name="check" class="check__input">
+                                <label for="editions__select--6" aria-label="Выбрать категорию Детям" class="check option editions__select__check">
+                                    <span class="check__box"></span>
+                                    Детям
+                                </label>
+                            </div>
+                            <div class="editions__select__item">
+                                <input id="editions__select--7" tabindex="0" type="checkbox" name="check" class="check__input">
+                                <label for="editions__select--7" aria-label="Выбрать категорию Художественная литература" class="check option editions__select__check">
+                                    <span class="check__box"></span>
+                                    Художественная литература
+                                </label>
+                            </div>
+                            <div class="editions__select__item">
+                                <input id="editions__select--8" tabindex="0" type="checkbox" name="check" class="check__input">
+                                <label for="editions__select--8" aria-label="Выбрать категорию Публицистика" class="check option editions__select__check">
+                                    <span class="check__box"></span>
+                                    Публицистика
+                                </label>
+                            </div>
+                            <div class="editions__select__item">
+                                <input id="editions__select--9" tabindex="0" type="checkbox" name="check" class="check__input">
+                                <label for="editions__select--9" aria-label="Выбрать категорию Путеводители" class="check option editions__select__check">
+                                    <span class="check__box"></span>
+                                    Путеводители
+                                </label>
+                            </div>
+                            <div class="editions__select__item">
+                                <input id="editions__select--10" tabindex="0" type="checkbox" name="check" class="check__input">
+                                <label for="editions__select--10" aria-label="Выбрать категорию Философия" class="check option editions__select__check">
+                                    <span class="check__box"></span>
+                                    Философия
+                                </label>
+                            </div>
+                            <div class="editions__select__item">
+                                <input id="editions__select--11" tabindex="0" type="checkbox" name="check" class="check__input">
+                                <label for="editions__select--11" aria-label="Выбрать категорию Учебная литература" class="check option editions__select__check">
+                                    <span class="check__box"></span>
+                                    Учебная литература
+                                </label>
+                            </div>
+                            <div class="editions__select__item">
+                                <input id="editions__select--12" tabindex="0" type="checkbox" name="check" class="check__input">
+                                <label for="editions__select--12" aria-label="Выбрать категорию Журналы и газеты" class="check option editions__select__check">
+                                    <span class="check__box"></span>
+                                    Журналы и газеты
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="editions__price__sort">
+                        <h4 class="editions__price__sort__header">Цена</h4>
+                        <form action="URL" class="sort">
+                            <p class="sort__text">От</p><input tabindex="0" aria-label="Цена от" type="number" class="sort__price"><p class="sort__text">до</p><input tabindex="0" aria-label="Цена до" type="number" class="sort__price">
+                            <p class="sort__text">руб.</p>
+                        </form>
+                    </div>
+                </div>
+                <div class="editions__catalog">
+                    <div class="swiper-container editions__slider">
+                        <div class="slider__arrows">
+                            <div tabindex="0" class="swiper-button-prev editions-arrow-prev"><span class="arrow"></span></div>
+                            <div class="editions-swiper-pagination"></div>
+                            <div tabindex="0" class="swiper-button-next editions-arrow-next"><span class="arrow"></span></div>
+                        </div>
+                        <div class="swiper-wrapper editions__wrapper">
+                            <div class="swiper-slide editions__slide">    
+                                <div class="editions__catalog__block">
+                                    <img src="/img/IMG/editions1.jpg" alt="" class="editions__catalog__block__img">
+                                    <p class="editions__catalog__block__descr"><strong
+                                            class="editions__catalog__block__descr__header">Искусство цвета</strong><br>
+                                        Иттен, Иоханнес <span class="editions__catalog__block__price">620 руб</span> </p>
+                                    <a tabindex="0" href="" class="editions__catalog__block__btn">Заказать</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide editions__slide">    
+                                <div class="editions__catalog__block">
+                                    <img src="/img/IMG/editions2.jpg" alt="" class="editions__catalog__block__img">
+                                    <p class="editions__catalog__block__descr"><strong
+                                            class="editions__catalog__block__descr__header">Типографика</strong><br>
+                                        Рудер, Эмиль <span class="editions__catalog__block__price">2 450 руб</span> </p>
+                                    <a tabindex="0" href="" class="editions__catalog__block__btn">Заказать</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide editions__slide">
+                                <div class="editions__catalog__block">
+                                    <img src="/img/IMG/editions3.jpg" alt="" class="editions__catalog__block__img">
+                                    <p class="editions__catalog__block__descr"><strong class="editions__catalog__block__descr__header">Книга про
+                                            буквы</strong><br>
+                                        Гордон, Юрий <span class="editions__catalog__block__price">2 200 руб</span> </p>
+                                    <a tabindex="0" href="" class="editions__catalog__block__btn">Заказать</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide editions__slide">
+                                <div class="editions__catalog__block">
+                                    <img src="/img/IMG/editions4.jpg" alt="" class="editions__catalog__block__img">
+                                    <p class="editions__catalog__block__descr"><strong class="editions__catalog__block__descr__header">Николай Ильин</strong><br>
+                                        Кричевский, Владимир <span class="editions__catalog__block__price">1 100 руб</span> </p>
+                                    <a tabindex="0" href="" class="editions__catalog__block__btn">Заказать</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide editions__slide">
+                                <div class="editions__catalog__block">
+                                    <img src="/img/IMG/editions5.jpg" alt="" class="editions__catalog__block__img">
+                                    <p class="editions__catalog__block__descr"><strong
+                                            class="editions__catalog__block__descr__header">Модульные сетки в граф...</strong><br>
+                                            Мюллер-Брокманн, Йозеф <span class="editions__catalog__block__price">1 450 руб</span> </p>
+                                    <a tabindex="0" href="" class="editions__catalog__block__btn">Заказать</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide editions__slide">
+                                <div class="editions__catalog__block">
+                                    <img src="/img/IMG/editions6.jpg" alt="" class="editions__catalog__block__img">
+                                    <p class="editions__catalog__block__descr"><strong class="editions__catalog__block__descr__header">Эволюция графических ст...</strong><br>
+                                        Хеллер, Чваст <span class="editions__catalog__block__price">3 200 руб</span> </p>
+                                    <a tabindex="0" href="" class="editions__catalog__block__btn">Заказать</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide editions__slide">
+                                <div class="editions__catalog__block">
+                                    <img src="/img/IMG/editions7.jpg" alt="" class="editions__catalog__block__img">
+                                    <p class="editions__catalog__block__descr"><strong class="editions__catalog__block__descr__header">Искусство и визуальное в...</strong><br>
+                                        Арнхейм, Рудольф <span class="editions__catalog__block__price">2 200 руб</span> </p>
+                                    <a tabindex="0" href="" class="editions__catalog__block__btn">Заказать</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container projects__container">
+                <h2 class="projects__header section__header">Проекты</h2>
+                <div class="projects__descr">
+                    Предварительные выводы: постоянное информационно-пропагандистское обеспечение
+                    нашей деятельности однозначно фиксирует необходимость своевременного выполнения сверхзадачи. А ещё
+                    независимые государства смешаны с не уникальными данными до степени совершенной неузнаваемости,
+                    из-за чего возрастает их статус бесполезности. Прежде всего, постоянное
+                    информационно-пропагандистское
+                    <div tabindex="0" class="marker">
+                        <div class="marker__img"></div>
+                        <div class="popup">
+                            <div class="popup-text">
+                                Пример современных тенденций - современная методология разработки
+                            </div>
+                        </div>
+                    </div> 
+                    обеспечение нашей деятельности однозначно фиксирует необходимость экономической целесообразности
+                    принимаемых решений. И нет сомнений, что действия представителей оппозиции могут быть рассмотрены
+                    <div tabindex="0" class="marker">
+                        <div class="marker__img"></div>
+                        <div class="popup">
+                            <div class="popup-text">
+                                Приятно, граждане, наблюдать, как сделанные на базе аналитики выводы вызывают у вас эмоции
+                            </div>
+                        </div>
+                    </div> 
+                    исключительно в разрезе маркетинговых и финансовых
+                    <div tabindex="0" class="marker">
+                        <div class="marker__img"></div>
+                        <div class="popup">
+                            <div class="popup-text">
+                                В стремлении повысить качество
+                            </div>
+                        </div>
+                    </div> 
+                    предпосылок. Банальные, но неопровержимые выводы, а также представители современных социальных
+                    резервов призывают нас к новым свершениям, которые, в свою очередь, должны быть смешаны с не уникальными
+                    данными до степени совершенной неузнаваемости. Подробнее: <a tabindex="0" href="" class="projects__descr__link">blanchard-art.ru/projects/about</a>
+                </div>
+                <div class="partners">
+                    <h3 class="partners__header">Партнеры проектов:</h3>
+                    <div class="partners__wrap">
+                        <div tabindex="0" class="swiper-button-prev partners__arrow--prev"><span class="arrow"></span></div>
+                        <div class="swiper-container partners__slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide partners__slide">
+                                    <a tabindex="0" aria-label="Freelands Foundation" class="partners__picture"><img class="partners__img partners__img--1" src="/img/PNG/parents1visible.png" alt=""></a>
+                                </div>
+                                <div class="swiper-slide partners__slide">
+                                    <a tabindex="0" aria-label="Institute for Contemporary Art" class="partners__picture"><img class="partners__img partners__img--2" src="/img/PNG/parents2visible.png" alt=""></a>
+                                </div>
+                                <div class="swiper-slide partners__slide">
+                                    <a tabindex="0" aria-label="Workhouse arts center" class="partners__picture"><img class="partners__img partners__img--3" src="/img/PNG/parents3visible.png" alt=""></a>
+                                </div>
+                                <div class="swiper-slide partners__slide">
+                                    <a tabindex="0" aria-label="1849" class="partners__picture"><img class="partners__img partners__img--4" src="/img/PNG/parents4visible.png" alt=""></a>
+                                </div>
+                                <div class="swiper-slide partners__slide">
+                                    <a tabindex="0" aria-label="HISCOX" class="partners__picture"><img class="partners__img partners__img--5" src="/img/PNG/parents5visible.png" alt=""></a>
+                                </div>
+                                <div class="swiper-slide partners__slide">
+                                    <a tabindex="0" aria-label="Camden arts centre" class="partners__picture"><img class="partners__img partners__img--6" src="/img/PNG/parents6visible.png" alt=""></a>
+                                </div>
+                                <div class="swiper-slide partners__slide">
+                                    <a tabindex="0" aria-label="Stassen premium belgian cider" class="partners__picture"><img class="partners__img partners__img--7" src="/img/PNG/parents7visible.png" alt=""></a>
+                                </div>
+                                <div class="swiper-slide partners__slide">
+                                    <a tabindex="0" aria-label="Watts gallery artists village" class="partners__picture"><img class="partners__img partners__img--8" src="/img/PNG/parents8visible.png" alt=""></a>
+                                </div>
+                                <div class="swiper-slide partners__slide">
+                                    <a tabindex="0" aria-label="école supérieure d'art et de design de valenciennes" class="partners__picture"><img class="partners__img partners__img--9" src="/img/PNG/parents9visible.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div tabindex="0" class="swiper-button-next partners__arrow--next"><span class="arrow"></span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="contacts">
+            <div class="container contacts__container">
+                <h2 class="contacts__header section__header">Контакты</h2>
+                <h3 class="contacts__adress__header--min">Шоурум №4</h3>
+                <address class="contacts__adress--min">Леонтьевский переулок, дом 5, строение 1</address>
+            </div>
+            <div class="contacts__content">
+                <div class="contacts__content__container container">
+                    <div id="map" class="map"></div>
+                    <div class="contacts__form">
+                        <h3 class="contacts__adress__header">Шоурум №4</h3>
+                        <address class="contacts__adress">Леонтьевский переулок, дом 5, строение 1</address>
+                        <form id="form" class="contacts__form__form" action="/php/form.php" method="POST">
+                            <h4 class="form__header">Заказать обратный звонок</h4>
+                            <div class="just-validate-tooltip-container">
+                                <input tabindex="0" aria-label="Поле Имя" class="form__input" name="name" type="text" placeholder="Имя*" data-validate-field="name">
+                            </div>
+                            <div class="just-validate-tooltip-container">
+                                <input tabindex="0" aria-label="Поле Телефон" class="form__input" name="tel" type="tel" placeholder="Телефон*" data-validate-field="phone">
+                            </div>
+                            <input tabindex="0" aria-label="Кнопка заказать" type="submit" value="Заказать" class="form__btn">
+                        </form>
+                        <div id="result__form"></div>
+                        <p class="contacts__link__header">Связаться в один клик</p>
+                        <a tabindex="0" aria-label="Whatsapp" class="contacts__link contacts__link--whatsapp" href=""></a>
+                        <a tabindex="0" aria-label="Telegarm" class="contacts__link contacts__link--tg" href=""></a>
+                    </div>
+                </div>
+                <div id="YMapsID" class="map"></div>
+            </div>
+            <div class="form__popup">
+                <div class="form__popup__window">
+                    <button class="form__popup__close">
+                        <span class="form__popup__close__line"></span>
+                        <span class="form__popup__close__line"></span>
+                    </button>
+                    <h2 class="form__popup__text"></h2>
+                </div>
+            </div>
+            <div class="form__popup__overlay"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <a tabindex="0" aria-label="Логотип Blanchard художественная галерея" href="" class="footer__logo logo"><img src="/img/PNG/Logo.png" alt=""></a>
+            <a tabindex="0" aria-label="Логотип Blanchard художественная галерея" href="" class="footer__logo--min logo"><img src="/img/PNG/Logo--min.png" alt=""></a>
+            <div class="social">
+                <ul class="social__list">
+                    <li class="social__list__item"><a tabindex="0" aria-label="vk" class="social__link social__link--vk" href=""></a></li>
+                    <li class="social__list__item"><a tabindex="0" aria-label="instagram" class="social__link social__link--inst" href=""></a></li>
+                    <li class="social__list__item"><a tabindex="0" aria-label="facebook" class="social__link social__link--fb" href=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/js/inputmask.min.js"></script>
+    <script src="/js/just-validate.min.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=вашAPI-ключ&lang=ru_RU"></script>
+    <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="/js/map.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</body>
+
+</html>
