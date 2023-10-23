@@ -1,18 +1,18 @@
 @font-face {
   font-family: 'Open-sans';
-  src: url(/fonts/OpenSans-Regular.ttf) format("woff2");
+  src: url(../fonts/OpenSans-Regular.ttf) format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: 'Open-sans';
-  src: url(/fonts/OpenSans-SemiBold.ttf) format("woff2");
+  src: url(../fonts/OpenSans-SemiBold.ttf) format("woff2");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: 'Open-sans';
-  src: url(/fonts/OpenSans-Bold.ttf) format("woff2");
+  src: url(../fonts/OpenSans-Bold.ttf) format("woff2");
   font-weight: 700;
   font-style: normal;
 }
@@ -175,8 +175,8 @@ section {
 .header__select__icon {
   margin-left: 4px;
   display: inline-block;
-  -webkit-mask-image: url(/img/SVG/select-arrow-down.svg);
-          mask-image: url(/img/SVG/select-arrow-down.svg);
+  -webkit-mask-image: url(../img/SVG/select-arrow-down.svg);
+          mask-image: url(../img/SVG/select-arrow-down.svg);
   background-color: #fff;
   background-size: cover;
   width: 12px;
@@ -427,16 +427,16 @@ section {
   color: #9D5CD0;
 }
 .login:hover::before {
-  content: url(/img/SVG/Vector2.svg);
+  content: url(../img/SVG/Vector2.svg);
 }
 .login:active {
   color: #7943A4;
 }
 .login:active::before {
-  content: url(/img/SVG/Vector3.svg);
+  content: url(../img/SVG/Vector3.svg);
 }
 .login::before {
-  content: url(/img/SVG/Vector.svg);
+  content: url(../img/SVG/Vector.svg);
   padding-right: 7px;
 }
 
@@ -490,8 +490,8 @@ section {
 }
 .search__btn {
   display: inline-block;
-  -webkit-mask-image: url(/img/SVG/search.svg);
-          mask-image: url(/img/SVG/search.svg);
+  -webkit-mask-image: url(../img/SVG/search.svg);
+          mask-image: url(../img/SVG/search.svg);
   margin-right: 9px;
   width: 22px;
   height: 22px;
@@ -549,7 +549,7 @@ section {
 
 .hero {
   position: relative;
-  background-image: url(/img/IMG/hero-bg1.jpg);
+  background-image: url(../img/IMG/hero-bg1.jpg);
   min-height: 700px;
 }
 .hero__main__container {
@@ -653,7 +653,7 @@ section {
 .gallery {
   padding-top: 85px;
   padding-bottom: 80px;
-  background-image: url(/img/IMG/gallery-bg.jpg);
+  background-image: url(../img/IMG/gallery-bg.jpg);
 }
 .gallery__container {
   position: relative;
@@ -767,7 +767,7 @@ section {
   z-index: 2;
   width: 22%;
   height: 22%;
-  background-image: url(/img/PNG/zoom.png);
+  background-image: url(../img/PNG/zoom.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -837,7 +837,7 @@ section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url(/img/SVG/select-arrow-down.svg);
+  background-image: url(../img/SVG/select-arrow-down.svg);
   background-size: cover;
   height: 7px;
   width: 7px;
@@ -906,8 +906,8 @@ section {
   width: 10px;
   height: 10px;
   display: inline-block;
-  -webkit-mask-image: url(/img/SVG/prevArrow.svg);
-          mask-image: url(/img/SVG/prevArrow.svg);
+  -webkit-mask-image: url(../img/SVG/prevArrow.svg);
+          mask-image: url(../img/SVG/prevArrow.svg);
   background-color: #fff;
   -webkit-mask-size: cover;
           mask-size: cover;
@@ -947,8 +947,8 @@ section {
   width: 10px;
   height: 10px;
   display: inline-block;
-  -webkit-mask-image: url(/img/SVG/nextArrow.svg);
-          mask-image: url(/img/SVG/nextArrow.svg);
+  -webkit-mask-image: url(../img/SVG/nextArrow.svg);
+          mask-image: url(../img/SVG/nextArrow.svg);
   background-color: #fff;
   -webkit-mask-size: cover;
           mask-size: cover;
@@ -1373,8 +1373,8 @@ section {
   width: 18px;
   height: 11px;
   display: inline-block;
-  -webkit-mask-image: url(/img/SVG/accordionarrow.svg);
-          mask-image: url(/img/SVG/accordionarrow.svg);
+  -webkit-mask-image: url(../img/SVG/accordionarrow.svg);
+          mask-image: url(../img/SVG/accordionarrow.svg);
   background-color: #000;
   -webkit-mask-size: contain;
           mask-size: contain;
@@ -1665,7 +1665,7 @@ section {
 }
 
 .editions {
-  background-image: url(/img/IMG/editionsBG.jpg);
+  background-image: url(../img/IMG/editionsBG.jpg);
   background-size: cover;
 }
 .editions__container {
@@ -1731,7 +1731,7 @@ section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url(/img/SVG/select-arrow-down.svg);
+  background-image: url(../img/SVG/select-arrow-down.svg);
   background-size: cover;
   height: 7.31px;
   width: 7.31px;
@@ -1931,8 +1931,8 @@ section {
   width: 10px;
   height: 10px;
   display: inline-block;
-  -webkit-mask-image: url(/img/SVG/prevArrow.svg);
-          mask-image: url(/img/SVG/prevArrow.svg);
+  -webkit-mask-image: url(../img/SVG/prevArrow.svg);
+          mask-image: url(../img/SVG/prevArrow.svg);
   background-color: #fff;
   -webkit-mask-size: cover;
           mask-size: cover;
@@ -1973,8 +1973,8 @@ section {
   width: 10px;
   height: 10px;
   display: inline-block;
-  -webkit-mask-image: url(/img/SVG/nextArrow.svg);
-          mask-image: url(/img/SVG/nextArrow.svg);
+  -webkit-mask-image: url(../img/SVG/nextArrow.svg);
+          mask-image: url(../img/SVG/nextArrow.svg);
   background-color: #fff;
   -webkit-mask-size: cover;
           mask-size: cover;
@@ -2091,7 +2091,7 @@ section {
   overflow: hidden;
 }
 .check__input:checked + .check::before {
-  background: url(/img/PNG/Ellipse.png) no-repeat center;
+  background: url(../img/PNG/Ellipse.png) no-repeat center;
   border: 1px solid #C283F3;
 }
 .check__input:focus:not(:active) + .check {
@@ -2178,8 +2178,8 @@ section {
   display: inline-block;
   width: 2px;
   height: 10px;
-  -webkit-mask-image: url(/img/SVG/i.svg);
-          mask-image: url(/img/SVG/i.svg);
+  -webkit-mask-image: url(../img/SVG/i.svg);
+          mask-image: url(../img/SVG/i.svg);
   -webkit-mask-size: contain;
           mask-size: contain;
   -webkit-mask-repeat: no-repeat;
@@ -2368,8 +2368,8 @@ section {
   width: 10px;
   height: 10px;
   display: inline-block;
-  -webkit-mask-image: url(/img/SVG/prevArrow.svg);
-          mask-image: url(/img/SVG/prevArrow.svg);
+  -webkit-mask-image: url(../img/SVG/prevArrow.svg);
+          mask-image: url(../img/SVG/prevArrow.svg);
   background-color: #000;
   -webkit-mask-size: cover;
           mask-size: cover;
@@ -2417,8 +2417,8 @@ section {
   width: 10px;
   height: 10px;
   display: inline-block;
-  -webkit-mask-image: url(/img/SVG/nextArrow.svg);
-          mask-image: url(/img/SVG/nextArrow.svg);
+  -webkit-mask-image: url(../img/SVG/nextArrow.svg);
+          mask-image: url(../img/SVG/nextArrow.svg);
   background-color: #000;
   -webkit-mask-size: cover;
           mask-size: cover;
@@ -2514,11 +2514,11 @@ section {
   background-size: cover;
 }
 .contacts__link--whatsapp {
-  background: url(/img/PNG/Whatsapp.png) no-repeat 100%/100%;
+  background: url(../img/PNG/Whatsapp.png) no-repeat 100%/100%;
   margin-right: 20px;
 }
 .contacts__link--tg {
-  background: url(/img/PNG/Tg.png) no-repeat 100%/100%;
+  background: url(../img/PNG/Tg.png) no-repeat 100%/100%;
 }
 .contacts__link:focus:not(:active) {
   border: 2px solid #7943A4;
@@ -2750,16 +2750,16 @@ section {
   background-color: #cacaca;
 }
 .social__link--vk {
-  -webkit-mask-image: url(/img/SVG/vk.svg);
-          mask-image: url(/img/SVG/vk.svg);
+  -webkit-mask-image: url(../img/SVG/vk.svg);
+          mask-image: url(../img/SVG/vk.svg);
 }
 .social__link--inst {
-  -webkit-mask-image: url(/img/SVG/instagram.svg);
-          mask-image: url(/img/SVG/instagram.svg);
+  -webkit-mask-image: url(../img/SVG/instagram.svg);
+          mask-image: url(../img/SVG/instagram.svg);
 }
 .social__link--fb {
-  -webkit-mask-image: url(/img/SVG/fb.svg);
-          mask-image: url(/img/SVG/fb.svg);
+  -webkit-mask-image: url(../img/SVG/fb.svg);
+          mask-image: url(../img/SVG/fb.svg);
 }
 .social__link:focus:not(:active), .social__link:hover {
   background-color: #fff;
